@@ -1,0 +1,7 @@
+I installed Visual Studio Code and the C/C++ extension from Microsoft.
+I installed MinGW-w64 to provide the GCC compiler for C programs.
+I verified the installation using the `gcc --version` command.
+Initially, the GCC command was not recognized because MinGW was not added to PATH.
+I added the MinGW-w64 bin folder to the Windows PATH environment variable.
+After restarting VS Code, GCC was detected successfully.
+I created and compiled `hello.c` and successfully displayed "Hello, World!".
